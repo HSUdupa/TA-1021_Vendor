@@ -230,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.VZ1.fqc.rc:system/vendor/etc/init/hw/init.VZ1.fqc.rc \
     vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.VZ1.lcm.rc:system/vendor/etc/init/hw/init.VZ1.lcm.rc \
     vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.VZ1.target.rc:system/vendor/etc/init/hw/init.VZ1.target.rc \
-    vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.fih.check.rc:system/vendor/etc/init/hw/init.fih.check.rc \
     vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.key.rc:system/vendor/etc/init/hw/init.key.rc \
     vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.led.rc:system/vendor/etc/init/hw/init.led.rc \
     vendor/nokia/PLE/proprietary/vendor/etc/init/hw/init.qcom.battery.rc:system/vendor/etc/init/hw/init.qcom.battery.rc \
@@ -2417,7 +2416,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     TimeService \
-    colorservice \
     audiosphere \
     dolby_dax \
     qcrilhook \
